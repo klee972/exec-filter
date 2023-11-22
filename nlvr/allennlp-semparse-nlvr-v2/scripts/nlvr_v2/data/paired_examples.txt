@@ -1,0 +1,584 @@
+
+Reading NLVR data ... 
+NLVR instances read: 3163
+
+Reading paired data ... 
+Paired phrases generated. Num of abstract phrases: 34  Avg num of grounded phrases per set:2.9705882352941178
+
+*********
+COLOR1 block at the base
+COLOR1 block as the base
+the base is COLOR1
+-----------
+There is at least one yellow block as the base of a tower.
+there is a tower with three blocks having yellow block at the base
+there is at least one tower with a yellow block at the base
+There is a yellow block as the base of a tower with four blocks.
+There is no yellow block as the base of a tower.
+There is no yellow block as the base of a tower.
+there are exactly two towers with a yellow block at the base
+there is exactly one tower with a yellow block at the base.
+There is at most one yellow block as the base of a tower.
+There are 2 towers with a yellow block at the base
+*********
+
+
+*********
+COLOR1 block at the base
+COLOR1 block as the base
+the base is COLOR1
+-----------
+There is a black block as the base of a tower with at least two blocks.
+There is a black block as the base of a tower with four blocks.
+the tower with exactly two blocks has a black block at the base
+There is 1 tower with a black block at the base
+There is a black block as the base of a tower.
+There is 1 tower with a black block at the base
+There is no black block as the base of a tower.
+There is a black block as the base of a tower.
+the tower with exactly two blocks has a black block at the base
+there is exactly one  tower which has a black block at the base
+*********
+
+
+*********
+COLOR1 block at the base
+COLOR1 block as the base
+the base is COLOR1
+-----------
+the tower with three blocks has a blue block at the base
+There is a blue block as the base of a tower with three blocks.
+there is one tower with a blue block at the base and black block at the top
+there is exactly one tower with a blue block at the base
+There is a blue block as the base of a tower with four blocks.
+there are exactly two towers with a blue block at the base
+There is a four blocks tower and the second block from the base is blue.
+There is a blue block as the base of a tower with at least three blocks.
+There is at least one blue block as the base of a tower.
+there is exactly one tower with a blue block at the base
+*********
+
+
+*********
+COLOR1 block at the top
+COLOR1 block as the top
+COLOR1 item on top
+-----------
+there is exactly one tower with a yellow block at the top
+There is exactly one tower with a yellow block at the top
+There are 2 towers with a yellow block at the top
+There is a yellow block as the top of a tower with four blocks.
+There is 1 tower with 1 yellow block at the top
+There is a box with a yellow item on top.
+There is a yellow block as the top of a tower with four blocks.
+There is at least one yellow block as the top of a tower.
+There is a yellow block as the top of a tower with exactly three blocks.
+There is a yellow block as the top of a tower.
+*********
+
+
+*********
+COLOR1 block at the top
+COLOR1 block as the top
+COLOR1 item on top
+-----------
+There is 1 tower with 1 black block at the top
+There is 1 tower with 1 black block at the top
+There is a tower with four blocks having a black block at the top
+there is exactly one tower with a black block at the top
+There is a box with 3 items and a black item on top.
+There is 1 tower with a black block at the top
+There is 1 tower with a black block at the top
+there is exactly one tower with a black block at the top
+There is a black block as the top of a tower.
+There is 1 tower with 1 black block at the top
+*********
+
+
+*********
+COLOR1 block at the top
+COLOR1 block as the top
+COLOR1 item on top
+-----------
+there is one tower with a blue block at the top
+There is a tower with exactly three blocks with a blue block at the top
+There is 1 tower with 1 blue block at the top
+There is a box with a yellow item touching the wall and a blue item on top of it.
+the tower with exactly three blocks has a blue block at the top
+there are exactly two towers with blue block at the top
+there is a tower with four blocks with the blue block at the top
+There are 2 towers with a blue block at the top
+there is exactly one tower with a blue block at the top
+There is at least 1 tower with a blue block at the top
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+There is no yellow block on a yellow block.
+There is a yellow block on a yellow block.
+There is a yellow block on a yellow block.
+There is a yellow block on a yellow block.
+there is one tower with a yellow block above a yellow block
+There is a yellow block on a yellow block.
+There is a yellow block on a yellow block.
+there is one tower with a yellow block above a yellow block
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+there is at least one tower with a yellow block above a black block
+There is 1 tower with a yellow block above a black block
+There is a yellow block over a black block.
+the tower with three blocks has a yellow block over a black block
+There is at least one yellow block on a black block.
+There is a yellow block on a black block.
+there is one tower with a yellow block above a black block
+there is a tower with a yellow block over a black block
+There is exactly one yellow block on a black block.
+there is at least one tower having a yellow block over a black block
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+there is a tower with a yellow block over a blue block
+There is a tower with a yellow block above a blue block
+there is a tower with a yellow block over a blue block
+there is exactly one tower with a yellow block over a blue block
+There is at least one tower with three blocks having a yellow block above a blue block
+There is a yellow block on a blue block.
+There is a tower with exactly two blocks having a yellow block above a blue block
+there is one tower with a yellow block over a blue block
+There is a yellow block on a blue block.
+There is a yellow block above a blue block.
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+there is exactly one tower with black block over a yellow block
+there is one tower with a black block over a yellow block
+there is a tower with a black block above a yellow block
+There is exactly one tower with a black block above a yellow block
+one of the tower has a black block over a yellow block
+There is a black block on a yellow block.
+there is tower with has a black block above a yellow block
+There is a black block above a yellow block.
+There is a black block above a yellow block.
+There is a black block on a yellow block.
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+There is only one black block on a black block.
+There is at least one black block on a black block.
+there is one tower which has a black block over a black block
+There is a tower with a black block above a black block and a blue block at the base
+There is bo black block on a black block.
+There is a black block on a black block.
+There is no black block on a black block.
+There is a black block on a black block.
+There is a black block on a black block as the base of a tower with three blocks.
+There is a black block on a black block.
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+there is a tower with a black block over a blue block
+There is no black block on a blue block.
+the  tower with four blocks has  a black block over a blue block
+there is a tower with a black block over a blue block
+There is at least one black block on a blue block.
+There is no black block above a blue block.
+There is a black block above a blue block.
+There is a tower with four blocks having a black block above a blue block with a black block at the top of the tower
+there is a tower with a black block over a blue block
+There is a black block on a blue block.
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+there is at least  one tower which has a blue block over a yellow block
+There is a blue block above a yellow block.
+There is at least one blue block on a yellow block.
+There is a blue block above a yellow block
+There is at least one blue block on a yellow block.
+There is a blue block above a yellow block.
+There is a blue block above a yellow block.
+There is a blue block over a yellow block.
+the tower with four blocks has a blue block over a yellow block
+There is at least one blue block above a yellow block.
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+There is a blue block above a black block.
+There is no blue block above a black block.
+there is exactly one tower which has a blue block over a black block
+There is a blue block on a black block.
+There is exactly one blue block on a black block.
+There are two towers that has a blue block above a black block.
+There is a blue block above a black block.
+There is at least one blue block on a black block.
+There is a blue block above a black block.
+there is a tower with a blue block over a black block
+*********
+
+
+*********
+COLOR1 object on a COLOR2 object
+COLOR1 object over a COLOR2 object
+COLOR1 object above a COLOR2 object
+COLOR1 block on a COLOR2 block
+COLOR1 block over a COLOR2 block
+COLOR1 block above a COLOR2 block
+-----------
+There is a tower which has a blue block over a blue block
+There is a blue block on a blue block.
+There is a blue block on a blue block in a tower with four blocks.
+There is at least one blue block on a blue block.
+There is at least one tower with four blocks having a blue block over a blue block
+the tower with three blocks has a blue block over a blue block
+There is a blue block on a blue block.
+There is no blue block on a blue block.
+There is a blue block on a blue block.
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is a box with a yellow circle and a blue triangle.
+there is one yellow circle touching the edge
+There is a box with multiple items and there is a yellow circle and triangle.
+there is one yellow circle touching the base
+There is a box with a yellow circle and two black items.
+There is a yellow circle closely touching a corner
+There is 1 yellow circle
+There is a box with a small yellow circle not touching the wall.
+There are 3 yellow circles
+There is 1 yellow circle
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is a box with a yellow triangle and a black triangle.
+There is no yellow triangle closely touching the bottom of a box.
+There is box with a yellow triangle of medium size and a black square.
+There is only 1 box with yellow triangles
+There is a box with a yellow triangle, a black triangle and a blue square.
+There is 1 box with 2 yellow triangles
+There are 2 yellow triangles
+There is a box with two yellow triangles and other items.
+there is a yellow triangle touching the base
+There is a yellow triangle closely touching right wall of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+there are exactly two yellow squares touching the edge
+The small yellow square is nealy touching the wall.
+There is a box with a black triangle, a yellow square and a blue square.
+There is a box with a yellow square and two black squares.
+There are at least 2 yellow squares
+None of the yellow squares are touching the edge
+There is exactly 1 yellow square and 1 yellow triangle
+There is a grey box with only one yellow square
+There is no yellow square closely touching right wall of a box.
+There is a yellow square touching the side.
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There are 2 black circles and 1 black triangle
+There are 2 black circle shapes
+Only one small black circle is touching the wall.
+There is a box with a black circle and a blue circle.
+there is exactly one black circle touching the edge
+there is at least one black circle touching the edge
+there is a black circle touching the edge
+There is a box with a blue square and at least one black circle.
+There is a black circle closely touching the bottom of a box.
+There are 2 black circles
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is 1 black triangle
+there is a black triangle not touching the base or edge
+There is 1 black triangle
+None of the black triangles are touching the edge
+There is a box with a yellow triangle, a black triangle and at least two blue items.
+There is at least 1 box with a black circle and a black triangle
+There is a box with a black square and at least one black triangle.
+There is a box with a black triangle and at least one blue square.
+There is a black triangle closely touching the bottom of a box.
+there is a black triangle touching the edge
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is exactly one black square not touching any edge
+There is 1 box with a black square and a black triangle
+There is a black square touching the corner.
+There is a box with a yellow square and two black squares.
+There is 1 black square
+There is a box with only one black square.
+black square is not touching the edge
+There is a box with a black square and two blue items.
+There is a box with a black square, a blue square and a yellow item.
+There is 1 black square
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is a box with items of all 3 different colors and only one blue circle.
+There is a blue circle touching the base
+One of the grey box has exactly two objects one of which is a blue circle
+There is exactly one blue circle not touching any edge
+There is a box, which has a blue circle and a yellow square.
+There is 1 box with 1 blue circle and 1 blue square
+There are 2 blue circles
+There is at least one blue circle closely touching right wall of a box.
+There is 1 blue circle
+There is 1 blue circle
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is a box with at least two black circles and exactly one blue triangle.
+There is no blue triangle closely touching the bottom of a box.
+There is at least one blue triangle closely touching the bottom of a box.
+there is at least one blue triangle not touching the base
+There is a blue triangle closely touching the bottom of a box.
+There is 1 box with eactly 1 blue triangle
+There is a box with a yellow square and a blue triangle.
+There is a box with a blue triangle and two blue circle.
+There is no blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching right wall of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1
+COLOR1 SHAPE1s
+-----------
+There is a box with a blue square and at least one black circle.
+There is a box with a black square, a yellow square and at least one blue square.
+t least 2 blue squares are touching the wall.
+There are 2 blue squares
+There is a box, which has a blue square, a yellow square and two black items.
+There is a blue square touching the corner.
+There is a box with a yellow circle, a blue square and at least one black squares.
+Two blue squares are touching the wall.
+There is 1 blue square
+There is a box with a yellow triangle, a black triangle and a blue square.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a yellow circle closely touching the bottom of a box.
+There is no yellow circle closely touching the bottom of a box.
+There is a yellow circle closely touching the bottom of a box.
+There is no yellow circle closely touching the bottom of a box.
+There is a yellow circle closely touching the bottom of a box.
+There is a yellow circle closely touching the bottom of a box.
+There is a yellow circle closely touching the bottom of a box.
+There is no yellow circle closely touching the bottom of a box.
+There is a yellow circle closely touching the bottom of a box.
+There is a yellow circle closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a yellow triangle closely touching the bottom of a box.
+There is a yellow triangle closely touching the bottom of a box.
+There is no yellow triangle closely touching the bottom of a box.
+There is no yellow triangle closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a yellow square closely touching the bottom of a box.
+There is exactly one yellow square closely touching the bottom of a box.
+There is a yellow square closely touching the bottom of a box.
+There is a yellow square closely touching the bottom of a box.
+There is a yellow square closely touching the bottom of a box.
+There is no yellow square closely touching the bottom of a box.
+There is no yellow square closely touching the bottom of a box.
+There is at least one yellow square closely touching the bottom of a box.
+There is a yellow square closely touching the bottom of a box.
+There is a yellow square closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a black circle closely touching the bottom of a box.
+There is a black circle closely touching the bottom of a box.
+There is no black circle closely touching the bottom of a box.
+There is a black circle closely touching the bottom of a box.
+There is a black circle closely touching the bottom of a box.
+There is no black circle closely touching the bottom of a box.
+There is a black circle closely touching the bottom of a box.
+There is a black circle closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a blue or black triangle closely touching the bottom of a box.
+There is at least one black triangle closely touching the bottom of a box.
+There is a black triangle closely touching the bottom of a box.
+There is a black triangle closely touching the bottom of a box.
+There is at least one black triangle closely touching the bottom of a box.
+There is a black triangle closely touching the bottom of a box.
+There is a black triangle closely touching the bottom of a box.
+There is a black triangle closely touching the bottom of a box.
+There is no black triangle closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a black square closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a blue circle closely touching the bottom of a box.
+There is a blue circle closely touching the bottom of a box.
+There is a blue circle closely touching the bottom of a box.
+There is a blue circle closely touching the bottom of a box.
+There is at least one blue circle closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is at least one blue triangle closely touching the bottom of a box.
+There is no blue triangle closely touching the bottom of a box.
+There is no blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+There is a blue triangle closely touching the bottom of a box.
+*********
+
+
+*********
+COLOR1 SHAPE1 closely touching the bottom of a box
+-----------
+There is a blue square closely touching the bottom of a box.
+There is a blue square closely touching the bottom of a box.
+There is exactly one blue square closely touching the bottom of a box.
+There is exactly one blue square closely touching the bottom of a box.
+*********
+
+
+*********
+There are NUMBER1 boxes
+-----------
+There are two boxes with two items of different color.
+There are two boxes with a black circle.
+There are two boxes with only one blue item.
+There are two boxes with multiple items and each has two black items.
+There are two boxes with only one blue item and other items.
+There are 2 boxes with many items
+There are 2 boxes with 2 items of 2 different colors.
+There are two boxes which has the same number of objects and three kinds of colors.
+There are 2 boxes with at least 1 black item
+There are 2 boxes with at least 1 black circle
+*********
+

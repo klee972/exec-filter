@@ -1,0 +1,502 @@
+[
+  {
+    "identifier": "962",
+    "sentence": "There is a box with a blue square, at least one black square and at least two yellow items.",
+    "logical_form": "(box_exists (box_filter all_boxes (box_filter_and (* object_exists (* blue square)) (box_filter_and (* (object_count_greater_equals 1) (* black square)) (* (object_count_greater_equals 2) yellow)))))"
+  },
+  {
+    "identifier": "1500",
+      "sentence": "one of the grey square contains exactly seven objects",
+      "logical_form": "(box_count_equals 1 (box_filter all_boxes (object_count_equals 4)))"
+  },
+  {
+    "identifier": "160",
+    "sentence": "There are 2 black triangles",
+    "logical_form": "((* (object_count_equals 2) (* black triangle)) all_objects)"
+  },
+  {
+    "identifier": "660",
+    "sentence": "There is a yellow square in the corner of the box.",
+    "logical_form": "((* object_exists (* yellow (* square touch_corner))) all_objects)"
+  },
+  {
+    "identifier": "3969",
+    "sentence": "the tower with four blocks has a blue block at the base",
+    "logical_form": "((* object_exists (* blue bottom)) (object_in_box (box_filter all_boxes (object_count_equals 4))))"
+  },
+  {
+    "identifier": "1341",
+    "sentence": "There is no yellow item closely touching right wall of a box.",
+    "logical_form": "((* object_exists (negate_filter (* yellow touch_right))) all_objects)"
+  },
+  {
+    "identifier": "1843",
+    "sentence": "there are exactly two yellow squares touching the edge",
+    "logical_form": "((* (object_count_equals 2) (* (* yellow square) touch_wall)) all_objects)"
+  },
+  {
+    "identifier": "1617",
+    "sentence": "One of the grey box has only triangles",
+    "logical_form": "(box_count_equals 1 (box_filter all_boxes (object_shape_all_equals shape_triangle)))"
+  },
+  {
+    "identifier": "49",
+    "sentence": "There is 1 box with 2 yellow items and 2 blue items and 1 black item",
+    "logical_form": "(box_count_equals 1 (box_filter all_boxes (box_filter_and (* (object_count_equals 2) yellow) (box_filter_and (* (object_count_equals 2) blue) (* (object_count_equals 1) black)))))"
+  },
+  {
+    "identifier": "3231",
+    "sentence": "There is at least one blue block as the base of a tower.",
+    "logical_form": "((* (object_count_greater_equals 1) (* blue bottom)) all_objects)"
+  },
+  {
+    "identifier": "1308",
+    "sentence": "There is no yellow item closely touching the bottom of a box.",
+    "logical_form": "((* object_exists (negate_filter (* yellow touch_bottom))) all_objects)"
+  },
+  {
+    "identifier": "1448",
+    "sentence": "There is a box with only one square.",
+    "logical_form": "(box_exists (box_filter all_boxes (* (object_count_equals 1) square)))"
+  },
+  {
+    "identifier": "1822",
+    "sentence": "There is at least one black circle touching the edge",
+    "logical_form": "((* (object_count_greater_equals 1) (* (* black circle) touch_wall)) all_objects)"
+  },
+  {
+    "identifier": "1001",
+    "sentence": "There is a box with a yellow triangle and a black triangle.",
+    "logical_form": "(box_exists (box_filter all_boxes (box_filter_and (* object_exists (* yellow triangle)) (* object_exists (* black triangle)))))"
+  },
+  {
+    "identifier": "1179",
+    "sentence": "There is no yellow triangle closely touching the bottom of a box.",
+    "logical_form": "((* object_exists (negate_filter (* (* yellow triangle) touch_bottom))) all_objects)"
+  },
+  {
+    "identifier": "1212",
+    "sentence": "There is at least one square closely touching the bottom of a box.",
+    "logical_form": "((* (object_count_greater_equals 1) (* square touch_bottom)) all_objects)"
+  },
+  {
+    "identifier": "259",
+    "sentence": "There are 3 black circles",
+    "logical_form": "((* (object_count_equals 3) (* black circle)) all_objects)"
+  },
+  {
+    "identifier": "2263",
+    "sentence": "There is 1 tower that has exactly 1 block",
+    "logical_form": "(box_count_equals 1 (box_filter all_boxes (object_count_equals 1)))"
+  },
+  {
+    "identifier": "2186",
+    "sentence": "There is 1 tower with at least 2 blue blocks",
+    "logical_form": "(box_count_equals 1 (box_filter all_boxes (* (object_count_greater_equals 2) blue)))"
+  },
+  {
+    "identifier": "113",
+    "sentence": "There is 1 box with 1 black item",
+    "logical_form": "(box_count_equals 1 (box_filter all_boxes (* (object_count_equals 1) black)))"
+  },
+  {
+    "identifier": "115",
+    "sentence": "There are 2 blue triangles",
+    "logical_form": "((* (object_count_equals 2) (* blue triangle)) all_objects)"
+  },
+  {
+    "identifier": "393",
+    "sentence": "There is 1 box with only blue and yellow items",
+    "logical_form": "(box_count_equals 1 (box_filter all_boxes (box_filter_and (* object_exists blue) (* object_exists yellow))))"
+  },
+  {
+    "identifier": "1434",
+    "sentence": "There is a box with only one item.",
+    "logical_form": "(box_exists (box_filter all_boxes (object_count_equals 1)))"
+  },
+  {
+    "identifier": "3233",
+    "sentence": "There is exactly one blue block on a black block.",
+    "logical_form": "((* (object_count_equals 1) (* (* blue above) black)) all_objects)"
+  },
+  {
+    "identifier": "632",
+    "sentence": "There is a box with only one item of medium size not touching the wall.",
+    "logical_form": "(box_exists (box_filter all_boxes (* (object_count_equals 1) (* medium (negate_filter touch_wall)))))"
+  },
+  {
+    "identifier": "3866",
+    "sentence": "there is a tower with a black block over a blue block",
+    "logical_form": "(box_exists (box_filter all_boxes (* object_exists (* (* black above) blue))))"
+  },
+  {
+    "identifier": "3017",
+    "sentence": "There are two towers with black blocks as the second level.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3413",
+    "sentence": "There is a tower with only black blocks.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1794",
+    "sentence": "black triangle is not touching any edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2438",
+    "sentence": "There are 2 towers with a blue block at the base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1953",
+    "sentence": "There is exactly one blue circle touching the edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "244",
+    "sentence": "There is 1 black circle",
+    "logical_form": ""
+  },
+  {
+    "identifier": "603",
+    "sentence": "There is a box with items of the same color and a small circle.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1984",
+    "sentence": "there is at least one square touching the edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2313",
+    "sentence": "There is at least 1 tower with 2 blue blocks",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1687",
+    "sentence": "There are two blue objects touching the edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1238",
+    "sentence": "There is an item closely touching the bottom of a box.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3445",
+    "sentence": "There is exactly one yellow block as the base of a tower with three blocks.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "219",
+    "sentence": "There is 1 yellow square",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1254",
+    "sentence": "There is a box with a yellow square and two black squares.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2077",
+    "sentence": "ll three towers contain blue blocks",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1930",
+    "sentence": "There is exactly one square touching any edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2856",
+    "sentence": "There is a tower with more than two blocks and the top block is yellow.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1569",
+    "sentence": "One of the grey box contains only two objects",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1429",
+    "sentence": "There is a black square closely touching a wall of a box.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2677",
+    "sentence": "There is a box with 2 black items on top.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2357",
+    "sentence": "There is 1 tower with 2 yellow blocks stacked together",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3812",
+    "sentence": "there is at least one tower with exactly one block which is of yellow color",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3186",
+    "sentence": "There is a yellow tower with only one block.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3091",
+    "sentence": "There is a black block above a yellow block.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1438",
+    "sentence": "There is a square closely touching the bottom of a box.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "262",
+    "sentence": "There is 1 box with just 1 item",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1328",
+    "sentence": "There is no square closely touching right wall of a box.",
+    "logical_form": "((* object_exists (negate_filter (* square touch_right))) all_objects)"
+  },
+  {
+    "identifier": "3684",
+    "sentence": "there is at least  one tower of three blocks which has blocks of either yellow or blue color only",
+    "logical_form": ""
+  },
+  {
+    "identifier": "105",
+    "sentence": "There is 1 box with exactly 1 yellow item and 1 blue item",
+    "logical_form": ""
+  },
+  {
+    "identifier": "594",
+    "sentence": "The small yellow square is not touching the wall.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "682",
+    "sentence": "There is a box with only yellow items.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2415",
+    "sentence": "There is 1 tower with a blue block at the base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2002",
+    "sentence": "There are exactly  two yellow circles touching the base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "353",
+    "sentence": "There is 1 box with 1 blue circle and 1 blue square",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1866",
+    "sentence": "there are exactly two circles not touching any edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1909",
+    "sentence": "one of the grey square contains exactly three objects",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1070",
+    "sentence": "There is a box with a blue square, a yellow circle and at least one black circle.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "119",
+    "sentence": "There is 1 yellow circle closely touching a box corner",
+    "logical_form": ""
+  },
+  {
+    "identifier": "4058",
+    "sentence": "There is exactly one tower with a yellow block at base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1304",
+    "sentence": "There is a circle closely touching a corner of a box.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "305",
+    "sentence": "There are 2 black circles",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2950",
+    "sentence": "There is a blue block over a yellow block.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1446",
+    "sentence": "There is a blue triangle closely touching the bottom of a box.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1675",
+    "sentence": "there are exactly two yellow objects not touching any edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1711",
+    "sentence": "There is a blue circle touching the base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1901",
+    "sentence": "There is a grey box with exactly four objects",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1642",
+    "sentence": "the grey square with the least number of objects has a circle",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3092",
+    "sentence": "There is a tower with only one block and the color is blue.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3225",
+    "sentence": "There are two black blocks as the base of a tower.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1076",
+    "sentence": "There are exactly two squares closely touching the bottom of a box.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "266",
+    "sentence": "There is 1 box with 2 blue circles",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3179",
+    "sentence": "There is a yellow block as the top of a tower with four blocks.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "567",
+    "sentence": "There is a box with only blue and yellow items and a big yellow square.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1472",
+    "sentence": "There is a box with a blue square and two yellow circles.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1527",
+    "sentence": "at least one of the grey square contains exactly one object",
+    "logical_form": ""
+  },
+  {
+    "identifier": "28",
+    "sentence": "There is 1 black triangle",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3526",
+    "sentence": "There is a yellow block as the top of a tower with four blocks.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3524",
+    "sentence": "There is a blue block as the base of a tower.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2392",
+    "sentence": "There is 1 tower with exactly 1 blue block and 1 black block",
+    "logical_form": ""
+  },
+  {
+    "identifier": "899",
+    "sentence": "There are two black items touching the side.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3786",
+    "sentence": "there are two towers which has yellow block at the top",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1598",
+    "sentence": "There are exactly three objects touching the base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "59",
+    "sentence": "There is 1 box with exactly 2 items",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2676",
+    "sentence": "There is a box with a black item touching the wall and 2 items at most on top of it.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1054",
+    "sentence": "There is a box with a blue triangle, a black triangle and at least one yellow circle.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1511",
+    "sentence": "there are exactly three objects in one grey box",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3660",
+    "sentence": "there are at least  two towers with a  black block at the base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "87",
+    "sentence": "There is a black circle closely touching a corner",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3826",
+    "sentence": "there are exactly two towers with blue block at the top",
+    "logical_form": ""
+  },
+  {
+    "identifier": "2564",
+    "sentence": "There are at least two yellow squares touching the wall.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3042",
+    "sentence": "The third block of a tower from the base is black.",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1689",
+    "sentence": "There are exactly two blue objects touching the edge",
+    "logical_form": ""
+  },
+  {
+    "identifier": "3763",
+    "sentence": "There is one tower with a black block at base",
+    "logical_form": ""
+  },
+  {
+    "identifier": "1320",
+    "sentence": "There is a square closely touching the bottom of a box.",
+    "logical_form": ""
+  }
+]

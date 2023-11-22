@@ -1,0 +1,35 @@
+[
+  [
+    "COLOR1 block at the base",
+    "COLOR1 block as the base",
+    "the base is COLOR1"
+  ],
+  [
+    "COLOR1 object on a COLOR2 object",
+    "COLOR1 object over a COLOR2 object",
+    "COLOR1 object above a COLOR2 object",
+    "COLOR1 block on a COLOR2 block",
+    "COLOR1 block over a COLOR2 block",
+    "COLOR1 block above a COLOR2 block"
+  ],
+  [
+    "there is exactly NUMBER1 tower",
+    "there is exactly NUMBER1 box",
+    "there are exactly NUMBER1 towers",
+    "there are exactly NUMBER1 boxes"
+  ],
+  [
+    "at least NUMBER1 COLOR1 item",
+    "at least NUMBER1 COLOR1 items",
+    "at least NUMBER1 COLOR1 item",
+    "at least NUMBER1 COLOR1 items",
+    "at least NUMBER1 COLOR1 object",
+    "at least NUMBER1 COLOR1 objects",
+    "at least NUMBER1 COLOR1 object",
+    "at least NUMBER1 COLOR1 objects",
+    "at least NUMBER1 COLOR1 block",
+    "at least NUMBER1 COLOR1 blocks",
+    "at least NUMBER1 COLOR1 block",
+    "at least NUMBER1 COLOR1 blocks"
+  ]
+]

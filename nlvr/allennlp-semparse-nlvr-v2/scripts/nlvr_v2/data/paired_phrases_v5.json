@@ -1,0 +1,91 @@
+[
+  [
+    "COLOR1 block at the base",
+    "COLOR1 block as the base",
+    "the base is COLOR1"
+  ],
+  [
+    "COLOR1 object on a COLOR2 object",
+    "COLOR1 object over a COLOR2 object",
+    "COLOR1 object above a COLOR2 object",
+    "COLOR1 block on a COLOR2 block",
+    "COLOR1 block over a COLOR2 block",
+    "COLOR1 block above a COLOR2 block"
+  ],
+  [
+    "COLOR1 SHAPE1",
+    "COLOR1 SHAPE1s"
+  ],
+  [
+    "COLOR1 SHAPE1 closely touching the bottom of a box",
+    "COLOR1 SHAPE1s closely touching the bottom of a box"
+  ],
+  [
+    "COLOR1 SHAPE1 closely touching the top of a box",
+    "COLOR1 SHAPE1s closely touching the top of a box"
+  ],
+  [
+    "COLOR1 SHAPE1 closely touching the right wall of a box",
+    "COLOR1 SHAPE1s closely touching the right wall of a box"
+  ],
+  [
+    "COLOR1 SHAPE1 closely touching the left wall of a box",
+    "COLOR1 SHAPE1s closely touching the left wall of a box"
+  ],
+  [
+    "COLOR1 SHAPE1 touching the wall with its side",
+    "COLOR1 SHAPE1s touching the wall with its side",
+    "COLOR1 SHAPE1 touching the wall",
+    "COLOR1 SHAPE1s touching the wall",
+    "COLOR1 SHAPE1 is touching the wall",
+    "COLOR1 SHAPE1s is touching the wall"
+  ],
+  [
+    "COLOR1 item touching the wall",
+    "COLOR1 item is touching the wall",
+    "COLOR1 items touching the wall",
+    "COLOR1 items are touching the wall",
+    "COLOR1 one touching the wall",
+    "COLOR1 one is touching the wall",
+    "COLOR1 object touching the wall",
+    "COLOR1 object is touching the wall",
+    "COLOR1 objects touching the wall",
+    "COLOR1 objects are touching the wall"
+  ],
+  [
+    "a COLOR1 tower"
+  ],
+  [
+    "there is exactly NUMBER1 tower",
+    "there is exactly NUMBER1 box",
+    "there are exactly NUMBER1 towers",
+    "there are exactly NUMBER1 boxes"
+  ],
+  [
+    "NUMBER1 different color",
+    "NUMBER1 different colors",
+    "NUMBER1 color",
+    "NUMBER1 colors"
+  ],
+  [
+    "is NUMBER1 COLOR1 SHAPE1",
+    "with NUMBER1 COLOR1 SHAPE1",
+    "with NUMBER1 COLOR1 SHAPE1s",
+    "are NUMBER1 COLOR1 SHAPE1",
+    "are NUMBER1 COLOR1 SHAPE1s"
+  ],
+  [
+    "at least NUMBER1 COLOR1 item",
+    "at least NUMBER1 COLOR1 items",
+    "at least NUMBER1 COLOR1 item",
+    "at least NUMBER1 COLOR1 items",
+    "at least NUMBER1 COLOR1 object",
+    "at least NUMBER1 COLOR1 objects",
+    "at least NUMBER1 COLOR1 object",
+    "at least NUMBER1 COLOR1 objects",
+    "at least NUMBER1 COLOR1 block",
+    "at least NUMBER1 COLOR1 blocks",
+    "at least NUMBER1 COLOR1 block",
+    "at least NUMBER1 COLOR1 blocks"
+  ]
+]

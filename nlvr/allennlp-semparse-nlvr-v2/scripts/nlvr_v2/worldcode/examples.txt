@@ -1,0 +1,256 @@
+sentence: There is a circle closely touching a corner of a box.
+* score: 1.0 		 logical form: ((* object_exists (* circle touch_corner)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists touch_corner) circle) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* touch_corner circle)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists circle) touch_corner) all_objects)
+score: 0.9625 		 logical form: ((* object_exists (* circle (* touch_corner touch_bottom))) all_objects)
+score: 1.0 		 logical form: ((* (* (* object_exists circle) touch_wall) touch_corner) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* touch_corner circle) touch_right)) all_objects)
+score: 0.7625 		 logical form: ((* (* object_exists (* circle above)) touch_corner) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* touch_corner touch_wall)) circle) all_objects)
+score: 0.9625 		 logical form: ((* (* object_exists touch_bottom) (* touch_corner circle)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists circle) (* touch_wall touch_corner)) all_objects)
+score: 0.7625 		 logical form: ((* (* (* object_exists circle) above) touch_corner) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* touch_corner touch_wall) circle)) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* touch_corner circle) circle)) all_objects)
+score: 0.7625 		 logical form: ((* (* (* object_exists touch_corner) below) circle) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* bottom circle)) touch_corner) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* touch_corner circle)) touch_corner) all_objects)
+score: 0.9625 		 logical form: ((* object_exists (* (* above circle) touch_corner)) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* circle touch_corner) touch_corner)) all_objects)
+score: 0.9625 		 logical form: ((* (* object_exists (* touch_bottom circle)) touch_corner) all_objects)
+
+
+sentence: There are 2 yellow blocks
+score: 0.8481012658227848 		 logical form: ((* (object_shape_count_not_equals 2) yellow) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_lesser 2) yellow) all_objects)
+score: 0.5569620253164557 		 logical form: ((* (object_count_lesser_equals 2) yellow) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_not_equals 2) yellow) all_objects)
+score: 1.0 		 logical form: ((* (object_count_greater_equals 2) yellow) all_objects)
+* score: 0.5569620253164557 		 logical form: ((* (object_count_equals 2) yellow) all_objects)
+score: 0.6582278481012658 		 logical form: ((* (object_shape_count_lesser_equals 2) yellow) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_lesser_equals 2) yellow) all_objects)
+score: 0.5063291139240507 		 logical form: ((* (object_shape_count_lesser 2) yellow) all_objects)
+score: 0.9746835443037974 		 logical form: ((* (object_shape_count_lesser 2) (* touch_corner yellow)) all_objects)
+score: 1.0 		 logical form: ((* (* (object_color_count_lesser_equals 2) touch_right) yellow) all_objects)
+score: 0.8481012658227848 		 logical form: ((* (* (object_count_not_equals 2) yellow) big) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_lesser 2) (* big yellow)) all_objects)
+score: 1.0 		 logical form: ((* (* (object_color_count_lesser 2) yellow) touch_top) all_objects)
+score: 0.810126582278481 		 logical form: ((* (object_shape_count_not_equals 2) (* touch_wall yellow)) all_objects)
+score: 0.8987341772151899 		 logical form: ((* (object_count_lesser_equals 2) (* yellow circle)) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_lesser 2) (* touch_object yellow)) all_objects)
+score: 0.8734177215189873 		 logical form: ((* (object_shape_count_not_equals 2) (* yellow small)) all_objects)
+score: 0.5063291139240507 		 logical form: ((* (* (object_count_equals 2) medium) yellow) all_objects)
+score: 0.6708860759493671 		 logical form: ((* (* (object_count_greater_equals 2) medium) yellow) all_objects)
+
+
+sentence: There is a box without a blue item.
+score: 0.3037974683544304 		 logical form: (box_exists (box_filter all_boxes (* (* object_exists touch_right) blue)))
+* score: 1.0 		 logical form: (box_exists (box_filter all_boxes (* (object_color_none_equals color_blue) blue)))
+score: 1.0 		 logical form: (box_exists (box_filter all_boxes (* (object_color_all_equals color_yellow) blue)))
+score: 0.7848101265822784 		 logical form: (box_exists (box_filter all_boxes (* (object_shape_all_equals shape_square) blue)))
+
+
+sentence: there is at least one tower with exactly three blocks
+score: 1.0 		 logical form: (box_count_not_equals 3 (box_filter all_boxes (object_count_not_equals 1)))
+score: 1.0 		 logical form: (box_count_not_equals 3 (box_filter all_boxes (object_count_greater 1)))
+score: 1.0 		 logical form: (box_count_lesser 3 (box_filter all_boxes (object_count_greater 1)))
+score: 1.0 		 logical form: (box_count_lesser 3 (box_filter all_boxes (object_count_not_equals 1)))
+score: 0.45569620253164556 		 logical form: (box_count_equals 1 (box_filter all_boxes (object_count_equals 3)))
+
+
+sentence: There is 1 box with 5 yellow items
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (object_count_greater_equals 5) yellow)))
+* score: 1.0 		 logical form: (box_count_equals 1 (box_filter all_boxes (* (object_count_equals 5) yellow)))
+score: 1.0 		 logical form: (box_count_equals 1 (box_filter all_boxes (* (object_count_greater_equals 5) yellow)))
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (object_count_equals 5) yellow)))
+
+
+sentence: There is a blue triangle touching the wall with its side.
+score: 1.0 		 logical form: ((* object_exists (* (* touch_bottom touch_wall) (* blue triangle))) all_objects)
+score: 1.0 		 logical form: ((* (* (* (* object_exists touch_wall) blue) touch_bottom) triangle) all_objects)
+score: 1.0 		 logical form: ((* (* (* (* object_exists touch_wall) triangle) blue) touch_bottom) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* triangle (* (* touch_bottom blue) touch_wall))) all_objects)
+score: 1.0 		 logical form: ((* (* (* object_exists (* touch_bottom blue)) touch_wall) triangle) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* blue (* (* touch_wall triangle) touch_bottom))) all_objects)
+score: 0.8571428571428571 		 logical form: ((* (* object_exists blue) (* touch_wall (* bottom triangle))) all_objects)
+score: 0.8571428571428571 		 logical form: ((* (* object_exists touch_wall) (* blue (* bottom triangle))) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* blue (* touch_wall touch_bottom))) triangle) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists triangle) (* (* blue touch_wall) touch_bottom)) all_objects)
+
+
+sentence: There is atleast one grey box with exactly three objects
+score: 0.7974683544303798 		 logical form: (box_count_greater_equals 3 (box_filter all_boxes (object_count_greater 1)))
+score: 0.9746835443037974 		 logical form: (box_count_equals 3 (box_filter all_boxes (object_color_count_not_equals 1)))
+score: 0.4936708860759494 		 logical form: (box_count_equals 1 (box_filter all_boxes (object_count_not_equals 3)))
+score: 0.9746835443037974 		 logical form: (box_count_greater_equals 3 (box_filter all_boxes (object_color_count_not_equals 1)))
+score: 0.9746835443037974 		 logical form: (box_count_greater_equals 3 (box_filter all_boxes (object_color_count_greater 1)))
+score: 0.9746835443037974 		 logical form: (box_count_equals 3 (box_filter all_boxes (object_color_count_greater 1)))
+score: 0.7974683544303798 		 logical form: (box_count_equals 3 (box_filter all_boxes (object_count_not_equals 1)))
+score: 0.7974683544303798 		 logical form: (box_count_equals 3 (box_filter all_boxes (object_count_greater 1)))
+score: 0.7974683544303798 		 logical form: (box_count_greater_equals 3 (box_filter all_boxes (object_count_not_equals 1)))
+score: 0.4936708860759494 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (object_count_not_equals 3)))
+* score: 0.5569620253164557 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (object_count_equals 3)))
+score: 0.4936708860759494 		 logical form: (box_count_greater 1 (box_filter all_boxes (object_count_equals 3)))
+
+
+sentence: there is exactly one tower with a black block at the top
+* score: 1.0 		 logical form: (box_count_equals 1 (box_filter all_boxes (* (* object_exists black) top)))
+score: 1.0 		 logical form: (box_count_equals 1 (box_filter all_boxes (* object_exists (* black top))))
+
+
+sentence: There is at least one tower with exactly two blocks
+score: 0.95 		 logical form: (box_count_greater 1 (box_filter all_boxes (object_count_lesser_equals 2)))
+score: 0.8 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (object_count_not_equals 2)))
+score: 0.9625 		 logical form: (box_count_equals 1 (box_filter all_boxes (object_count_greater 2)))
+score: 0.95 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (object_count_greater 2)))
+score: 0.7875 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (object_count_lesser_equals 2)))
+score: 0.8 		 logical form: (box_count_greater 1 (box_filter all_boxes (object_count_equals 2)))
+
+
+sentence: There is 1 blue circle
+score: 1.0 		 logical form: ((* (* (object_count_greater_equals 1) circle) blue) all_objects)
+score: 1.0 		 logical form: ((* (* (object_shape_count_greater_equals 1) circle) blue) all_objects)
+* score: 0.775 		 logical form: ((* (* (object_count_equals 1) blue) circle) all_objects)
+score: 1.0 		 logical form: ((* (object_shape_count_equals 1) (* circle blue)) all_objects)
+score: 0.575 		 logical form: ((* (* (object_count_lesser_equals 1) blue) circle) all_objects)
+score: 0.575 		 logical form: ((* (object_count_lesser_equals 1) (* circle blue)) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_equals 1) (* circle blue)) all_objects)
+score: 1.0 		 logical form: ((* (object_count_greater_equals 1) (* blue circle)) all_objects)
+score: 1.0 		 logical form: ((* (* (object_shape_count_greater_equals 1) blue) circle) all_objects)
+score: 1.0 		 logical form: ((* (object_shape_count_equals 1) (* blue circle)) all_objects)
+score: 0.8 		 logical form: ((* (object_shape_count_lesser_equals 1) (* circle blue)) all_objects)
+score: 0.8 		 logical form: ((* (object_color_count_lesser_equals 1) (* circle blue)) all_objects)
+score: 0.575 		 logical form: ((* (object_count_lesser_equals 1) (* blue circle)) all_objects)
+score: 0.8 		 logical form: ((* (object_shape_count_lesser_equals 1) (* blue circle)) all_objects)
+score: 1.0 		 logical form: ((* (* (object_count_greater_equals 1) blue) circle) all_objects)
+score: 1.0 		 logical form: ((* (object_count_greater_equals 1) (* circle blue)) all_objects)
+score: 0.8 		 logical form: ((* (* (object_shape_count_lesser_equals 1) circle) blue) all_objects)
+score: 1.0 		 logical form: ((* (* (object_color_count_equals 1) circle) blue) all_objects)
+score: 0.8 		 logical form: ((* (* (object_color_count_lesser_equals 1) circle) blue) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_greater_equals 1) (* circle blue)) all_objects)
+score: 1.0 		 logical form: ((* (object_color_count_greater_equals 1) (* blue circle)) all_objects)
+
+
+sentence: There is only 1 box with at least 1 yellow item
+score: 1.0 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (* object_exists yellow)))
+* score: 1.0 		 logical form: (box_count_equals 1 (box_filter all_boxes (* object_exists yellow)))
+score: 0.5822784810126582 		 logical form: (box_count_greater 1 (box_filter all_boxes (* (object_count_not_equals 1) yellow)))
+score: 1.0 		 logical form: (box_count_lesser 2 (box_filter all_boxes (* (object_color_count_greater_equals 1) yellow)))
+score: 1.0 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (* (* object_exists bottom) yellow)))
+
+
+sentence: There is a yellow block above a black block.
+score: 1.0 		 logical form: ((* (* (* object_exists yellow) above) (* black bottom)) all_objects)
+
+
+sentence: blue circle is touching the wall.
+* score: 1.0 		 logical form: ((* object_exists (* touch_wall (* blue circle))) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists blue) (* touch_wall circle)) all_objects)
+score: 1.0 		 logical form: ((* (* (* object_exists circle) blue) touch_wall) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* touch_wall circle) blue)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists circle) (* blue touch_wall)) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* circle (* blue touch_wall))) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* touch_wall blue) circle)) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* circle blue) touch_wall)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists touch_wall) (* blue circle)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists touch_wall) (* circle blue)) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* circle touch_wall)) blue) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* blue circle)) touch_wall) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists (* touch_wall blue)) circle) all_objects)
+score: 1.0 		 logical form: ((* (* (* object_exists blue) touch_wall) circle) all_objects)
+score: 1.0 		 logical form: ((* (* (* object_exists touch_wall) blue) circle) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* blue (* touch_wall circle))) all_objects)
+score: 1.0 		 logical form: ((* (* (* object_exists blue) circle) touch_wall) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* blue (* circle touch_wall))) all_objects)
+score: 1.0 		 logical form: ((* (* object_exists blue) (* circle touch_wall)) all_objects)
+score: 1.0 		 logical form: ((* object_exists (* (* blue circle) touch_wall)) all_objects)
+
+
+sentence: There is a tower with two yellow blocks.
+* score: 1.0 		 logical form: (box_exists (box_filter all_boxes (* (object_count_equals 2) yellow)))
+score: 0.9375 		 logical form: (box_exists (box_filter all_boxes (* (object_count_greater_equals 2) yellow)))
+
+
+sentence: There are atleast three blue objects not touching the edge
+score: 1.0 		 logical form: ((* (* (object_count_equals 3) blue) (negate_filter touch_wall)) all_objects)
+score: 1.0 		 logical form: ((* (object_count_equals 3) (* (negate_filter touch_wall) blue)) all_objects)
+score: 1.0 		 logical form: ((* (object_count_equals 3) (* blue (negate_filter touch_wall))) all_objects)
+score: 1.0 		 logical form: ((* (* (object_count_equals 3) (negate_filter touch_wall)) blue) all_objects)
+
+
+sentence: There is 1 tower with a yellow block at the base
+score: 1.0 		 logical form: (box_count_greater 1 (box_filter all_boxes (* object_shape_same (* bottom yellow))))
+score: 1.0 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (* object_color_different (* bottom yellow))))
+score: 1.0 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (* (* object_color_different yellow) bottom)))
+score: 1.0 		 logical form: (box_count_greater 1 (box_filter all_boxes (* (* object_shape_same bottom) yellow)))
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* object_exists (* bottom yellow))))
+score: 1.0 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (* (* object_shape_different yellow) bottom)))
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (* object_exists bottom) yellow)))
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (* object_color_same yellow) bottom)))
+score: 1.0 		 logical form: (box_count_greater 1 (box_filter all_boxes (* (* object_color_same yellow) bottom)))
+score: 1.0 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (* (* object_shape_same bottom) yellow)))
+score: 1.0 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (* object_color_different (* bottom yellow))))
+score: 1.0 		 logical form: (box_count_lesser 1 (box_filter all_boxes (* object_shape_different (* yellow bottom))))
+score: 1.0 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (* (* object_color_different bottom) yellow)))
+score: 1.0 		 logical form: (box_count_lesser 1 (box_filter all_boxes (* object_color_different (* bottom yellow))))
+score: 1.0 		 logical form: (box_count_greater 1 (box_filter all_boxes (* object_color_same (* yellow bottom))))
+score: 1.0 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (* object_color_different (* yellow bottom))))
+score: 1.0 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (* (* object_color_same yellow) bottom)))
+score: 1.0 		 logical form: (box_count_not_equals 1 (box_filter all_boxes (* (* object_shape_different bottom) yellow)))
+score: 1.0 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes (* (* object_shape_different bottom) yellow)))
+score: 0.7848101265822784 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (* object_exists yellow) bottom)))
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (* object_shape_same bottom) yellow)))
+
+
+sentence: one of the grey box contains exactly one object
+score: 0.9230769230769231 		 logical form: (box_count_equals 1 (box_filter all_boxes object_color_different))
+score: 0.6282051282051282 		 logical form: (box_count_not_equals 1 (box_filter all_boxes object_color_same))
+score: 0.6282051282051282 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes object_shape_same))
+score: 0.9230769230769231 		 logical form: (box_count_greater 1 (box_filter all_boxes object_color_same))
+score: 0.9230769230769231 		 logical form: (box_count_lesser_equals 1 (box_filter all_boxes object_color_different))
+score: 0.6282051282051282 		 logical form: (box_exists (box_filter all_boxes (object_shape_count_equals 1)))
+score: 0.6282051282051282 		 logical form: (box_exists (box_filter all_boxes (object_shape_count_lesser_equals 1)))
+score: 0.6282051282051282 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (object_shape_count_equals 1)))
+
+
+sentence: There is a grey box with exactly five objects
+* score: 0.95 		 logical form: (box_exists (box_filter all_boxes (object_count_equals 5)))
+score: 1.0 		 logical form: (box_count_equals 1 (box_filter all_boxes (object_count_equals 5)))
+
+
+sentence: There are exactly two black objects touching the edge
+score: 0.6875 		 logical form: ((* (* (object_count_equals 2) black) touch_wall) all_objects)
+score: 0.95 		 logical form: ((* (* (object_shape_count_greater_equals 2) touch_wall) black) all_objects)
+* score: 0.975 		 logical form: ((* (* (object_shape_count_equals 2) touch_wall) black) all_objects)
+score: 0.6875 		 logical form: ((* (object_count_equals 2) (* touch_wall black)) all_objects)
+score: 0.975 		 logical form: ((* (object_shape_count_equals 2) (* black touch_wall)) all_objects)
+score: 0.7875 		 logical form: ((* (* (object_count_greater_equals 2) touch_wall) black) all_objects)
+score: 0.975 		 logical form: ((* (* (object_shape_count_equals 2) black) touch_wall) all_objects)
+score: 0.7875 		 logical form: ((* (object_count_greater_equals 2) (* black touch_wall)) all_objects)
+score: 0.95 		 logical form: ((* (object_shape_count_greater_equals 2) (* touch_wall black)) all_objects)
+score: 0.6875 		 logical form: ((* (object_count_equals 2) (* black touch_wall)) all_objects)
+score: 0.7875 		 logical form: ((* (object_count_greater_equals 2) (* touch_wall black)) all_objects)
+score: 0.7875 		 logical form: ((* (* (object_count_greater_equals 2) black) touch_wall) all_objects)
+score: 0.95 		 logical form: ((* (object_shape_count_greater_equals 2) (* black touch_wall)) all_objects)
+score: 0.95 		 logical form: ((* (* (object_shape_count_greater_equals 2) black) touch_wall) all_objects)
+score: 0.6875 		 logical form: ((* (* (object_count_equals 2) touch_wall) black) all_objects)
+score: 0.975 		 logical form: ((* (object_shape_count_equals 2) (* touch_wall black)) all_objects)
+score: 0.7 		 logical form: ((* (object_count_equals 2) (* (* touch_right black) touch_wall)) all_objects)
+score: 0.7625 		 logical form: ((* (* (object_shape_count_equals 2) touch_right) (* black touch_wall)) all_objects)
+score: 0.7625 		 logical form: ((* (* (object_count_equals 2) (* top touch_wall)) black) all_objects)
+score: 0.8125 		 logical form: ((* (object_shape_count_equals 2) (* (* black top) touch_wall)) all_objects)
+
+
+sentence: There is at least 1 tower with 1 black block at the top
+* score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* (* object_exists black) top)))
+score: 1.0 		 logical form: (box_count_greater_equals 1 (box_filter all_boxes (* object_exists (* black top))))
+
+
+sentence: There is no black item closely touching the bottom of a box.
+score: 0.8875 		 logical form: ((* (* (* object_shape_same above) touch_bottom) black) all_objects)
+score: 0.9125 		 logical form: ((* (* (object_shape_count_not_equals 1) touch_bottom) black) all_objects)
+* score: 1.0 		 logical form: ((* (* (object_shape_count_lesser 1) black) touch_bottom) all_objects)
+score: 0.8875 		 logical form: ((* (* (* object_shape_same above) black) touch_bottom) all_objects)
+
+

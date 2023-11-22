@@ -1,0 +1,88 @@
+[
+  [
+    "COLOR1 block at the base",
+    "COLOR1 block as the base",
+    "the base is COLOR1"
+  ],
+  [
+    "COLOR1 block at the top",
+    "COLOR1 block as the top",
+    "COLOR1 item on top"
+  ],
+  [
+    "COLOR1 object on a COLOR2 object",
+    "COLOR1 object over a COLOR2 object",
+    "COLOR1 object above a COLOR2 object",
+    "COLOR1 block on a COLOR2 block",
+    "COLOR1 block over a COLOR2 block",
+    "COLOR1 block above a COLOR2 block"
+  ],
+  [
+    "COLOR1 SHAPE1",
+    "COLOR1 SHAPE1s"
+  ],
+  [
+    "a COLOR1 tower"
+  ],
+  [
+    "there is one tower",
+    "there is one box",
+    "there is 1 tower",
+    "there is 1 box",
+    "there is only 1 box",
+    "there is only 1 tower"
+  ],
+  [
+    "there is exactly NUMBER1 tower",
+    "there is exactly NUMBER1 box",
+    "there are exactly NUMBER1 towers",
+    "there are exactly NUMBER1 boxes"
+  ],
+  [
+    "is NUMBER1 COLOR1 SHAPE1",
+    "with NUMBER1 COLOR1 SHAPE1",
+    "with NUMBER1 COLOR1 SHAPE1s",
+    "are NUMBER1 COLOR1 SHAPE1",
+    "are NUMBER1 COLOR1 SHAPE1s",
+    "is only NUMBER1 COLOR1 SHAPE1",
+    "with only NUMBER1 COLOR1 SHAPE1",
+    "are only NUMBER1 COLOR1 SHAPE1"
+  ],
+  [
+    "with NUMBER1 COLOR1 item",
+    "with NUMBER1 COLOR1 items",
+    "are NUMBER1 COLOR1 item",
+    "are NUMBER1 COLOR1 items",
+    "with NUMBER1 COLOR1 object",
+    "with NUMBER1 COLOR1 objects",
+    "are NUMBER1 COLOR1 object",
+    "are NUMBER1 COLOR1 objects",
+    "with NUMBER1 COLOR1 block",
+    "with NUMBER1 COLOR1 blocks",
+    "are NUMBER1 COLOR1 block",
+    "are NUMBER1 COLOR1 blocks",
+    "with only NUMBER1 COLOR1 item",
+    "are only NUMBER1 COLOR1 item",
+    "with only NUMBER1 COLOR1 object",
+    "are only NUMBER1 COLOR1 object",
+    "with only NUMBER1 COLOR1 block",
+    "are only NUMBER1 COLOR1 block"
+  ],
+  [
+    "at least NUMBER1 COLOR1 item",
+    "at least NUMBER1 COLOR1 items",
+    "at least NUMBER1 COLOR1 item",
+    "at least NUMBER1 COLOR1 items",
+    "at least NUMBER1 COLOR1 object",
+    "at least NUMBER1 COLOR1 objects",
+    "at least NUMBER1 COLOR1 object",
+    "at least NUMBER1 COLOR1 objects",
+    "at least NUMBER1 COLOR1 block",
+    "at least NUMBER1 COLOR1 blocks",
+    "at least NUMBER1 COLOR1 block",
+    "at least NUMBER1 COLOR1 blocks"
+  ],
+  [
+    "NUMBER1 blocks tower"
+  ]
+]
