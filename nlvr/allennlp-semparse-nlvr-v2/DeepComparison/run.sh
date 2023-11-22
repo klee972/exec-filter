@@ -1,0 +1,1 @@
+python ASD.py ./scores/iwbs5_aww8_erm ./scores/iwbs5_erm 0.05
