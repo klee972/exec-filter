@@ -23,7 +23,7 @@ python scripts/cache_lf.py processed/demo.train.programs.sketch.stat processed/d
 python scripts/cache_lf.py processed/demo.test.programs.sketch.stat processed/demo.test.programs test processed/test.pkl
 ```
 
-[processed files](https://drive.google.com/file/d/1tNauEhpcl21cWHhl5ciQmIHV6fKOjaar/view).
+Download [processed files](https://drive.google.com/file/d/1tNauEhpcl21cWHhl5ciQmIHV6fKOjaar/view).
 
 4. Collect target tables and execution results:
 ```
